@@ -1,0 +1,18 @@
+title: NightWolf1298
+description: "A personal website for NightWolf1298."
+permalink: /post/:year/:month/:day/:title
+baseurl: ""
+url: "https://nightwolf1298.com"
+twitter_username: nightwolf1298
+github_username: nightwolf1298
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+include: [.nojekyll, _icons]
+exclude: [vendor]

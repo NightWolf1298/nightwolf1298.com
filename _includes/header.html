@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" style="height: 100%;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="{% if page.subtitle %}{{ page.subtitle | strip_html }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="theme-color" content="#5dde95">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}NightWolf1298</title>
+    <link rel="shortcut icon" href="{{ '/images/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ '/images/favicon.png' | prepend: site.baseurl }}" sizes="any" type="image/png">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | prepend: site.baseurl }}">
+    <script src="{{ '/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/node_modules/chart.js/dist/Chart.js' | prepend: site.baseurl }}"></script>
+    <script>
+      $(document).ready(function() {
+        $.ajaxSetup({ cache: false });
+      });
+    </script>
+  </head>
+  <body style="background-color: #000; height: 100%">
+    <nav class="navbar navbar-dark bg-transparent" style="z-index: 999; pointer-events: none;">
+      <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}" style="pointer-events: auto;">
+        <img src="{{ '/images/avatar.png' | prepend: site.baseurl }}" alt="{{ site.title }}" class="rounded-circle" width="50" height="50">
+      </a>
+      <div class="dropdown" style="pointer-events: auto;">
+        <button class="navbar-toggler bg-dark" style="outline: none;" type="button" data-toggle="dropdown" aria-label="Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item {% if page.url == '/' %}active{% endif %}" href="{{ '/' | prepend: site.baseurl }}">About</a>
+          <a class="dropdown-item {% if page.url == '/places' %}active{% endif %}" href="{{ '/places' | prepend: site.baseurl }}">Places</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Furry</h6>
+          <a class="dropdown-item {% if page.url == '/fursona' %}active{% endif %}" href="{{ '/fursona' | prepend: site.baseurl }}">Fursona</a>
+          <a class="dropdown-item {% if page.url == '/fursuit' %}active{% endif %} disabled" href="{{ '/fursuit' | prepend: site.baseurl }}">Fursuit</a>
+          <a class="dropdown-item {% if page.url == '/conventions' %}active{% endif %}" href="{{ '/conventions' | prepend: site.baseurl }}">Conventions</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Gamer</h6>
+          <a class="dropdown-item {% if page.url == '/pokemongo' %}active{% endif %}" href="{{ '/pokemongo' | prepend: site.baseurl }}">Pokémon GO</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Other</h6>
+          <a class="dropdown-item {% if page.url == '/credits' %}active{% endif %}" href="{{ '/credits' | prepend: site.baseurl }}">Credits</a>
+        </div>
+      </div>
+    </nav>

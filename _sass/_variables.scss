@@ -1,0 +1,212 @@
+$body-bg: #000;
+$body-color: #fff;
+$primary: #c63f26;
+
+$tooltip-color: #000;
+$popover-body-color: #000;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #343a40;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  max-width: 1140px !important;
+}
+
+.btn-primary, .badge-primary, .progress-bar {
+  color: #343a40 !important;
+}
+
+.card-columns {
+  column-gap: 12px !important;
+  column-count: 1 !important;
+}
+@media screen and (min-width: 576px) {
+  .card-columns {
+    column-count: 2 !important;
+  }
+}
+
+.card, .list-group-item {
+  background-color: #343a40 !important;
+  border-color: #808080 !important;
+}
+
+.player {
+  border-top: none !important;
+}
+
+.modal-content {
+  background-color: #343a40 !important;
+  border-color: #808080 !important;
+}
+
+.modal-header {
+  border-bottom-color: #808080 !important;
+}
+
+.modal-footer {
+  border-top-color: #808080 !important;
+}
+
+.close {
+  color: #fff !important;
+  text-shadow: 0 1px 0 #000 !important;
+}
+
+.mapboxgl-popup-close-button {
+  display: none;
+}
+
+.mapboxgl-popup-content {
+  padding: 10px !important;
+}
+
+.mapboxgl-ctrl-logo {
+  width: 97px !important;
+  height: 24px !important;
+  margin: 0 !important;
+}
+
+.mapboxgl-ctrl-attrib a {
+  color: #000 !important;
+}
+
+.list-group-item a:hover span.float-right {
+  text-decoration: underline !important;
+}
+
+.post .list-group {
+  background: transparent;
+}
+
+.post .list-group-item {
+  background: transparent;
+  border-bottom: 1px solid #9a9a9a;
+}
+
+.post .list-group-item:last-of-type {
+  border-bottom: none;
+}
+
+.post img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.post img[src*="Screen%20Shot"] {
+  zoom: 50%;
+}
+
+.post ol img {
+  margin-left: 0;
+}
+
+a.disabled {
+  text-decoration: line-through;
+}
+
+#timeline {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+#timeline rect,
+#timeline path {
+  stroke-width: 0;
+}
+
+#timeline text {
+  fill: #fff;
+}
+
+.pokemon-shiny {
+  display: none;
+}
+
+
+
+.grid {
+  text-align: center;
+  font-size: 0;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  vertical-align: middle;
+  padding: 0;
+  grid-gap: 12px;
+}
+
+.grid-about {
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+}
+
+.grid-about a:any-link {
+  color: #fff;
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 1px;
+  text-decoration: none;
+}
+
+.grid-about a:any-link img {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  pointer-events: none;
+  filter: invert(1);
+}
+
+.grid-about a:any-link span {
+  line-height: 100%;
+  margin-top: 8px;
+  display: block;
+  white-space: nowrap;
+}
+
+.grid-pokemon {
+  grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+}
+
+.grid-pokemon div {
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 1px;
+  text-decoration: none;
+}
+
+.grid-pokemon div img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.grid-pokemon div span {
+  line-height: 100%;
+  margin-top: 8px;
+  display: block;
+}
+
+.colors button {
+  margin-bottom: 10px;
+}

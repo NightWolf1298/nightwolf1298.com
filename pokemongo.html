@@ -1,0 +1,49 @@
+---
+layout: page
+title: Pokémon GO
+subtitle: "Pokédex, medals &amp; more."
+permalink: /pokemongo
+---
+{% assign dex = site.data.pokemongo.caught | times: 100 | divided_by: site.data.pokemongo.total | round %}
+<div class="container">
+  <div class="progress" style="height: 38px; margin-bottom: 12px;">
+    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">XP - 100% (40/40)</div>
+  </div>
+  <div class="progress" style="height: 38px; margin-bottom: 76px;">
+    <div class="progress-bar" role="progressbar" style="width: {{ dex }}%;" aria-valuenow="{{ dex }}" aria-valuemin="0" aria-valuemax="100">Pokédex - {{ dex }}% ({{ site.data.pokemongo.caught }}/{{ site.data.pokemongo.total }})</div>
+  </div>
+  <div class="text-center" style="margin-bottom: 12px;">
+    <label style="height: 38px; line-height: 38px; vertical-align: middle; margin: 0;">Show </label>
+    <div class="dropdown" style="display: inline-block !important;">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="filter-caught" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> all </button>
+      <div class="dropdown-menu" aria-labelledby="filter-caught">
+        <a class="dropdown-item" href="#" onclick="$('.have').show(); $('.need').show(); $('#filter-caught').html(' all '); return false;">all</a>
+        <a class="dropdown-item" href="#" onclick="$('.have').show(); $('.need').hide(); $('#filter-caught').html(' caught '); return false;">caught</a>
+        <a class="dropdown-item" href="#" onclick="$('.have').hide(); $('.need').show(); $('#filter-caught').html(' non-caught '); return false;">non-caught</a>
+      </div>
+    </div>
+    <div class="dropdown" style="display: inline-block !important;">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="filter-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> normal </button>
+      <div class="dropdown-menu" aria-labelledby="filter-type">
+        <a class="dropdown-item" href="#" onclick="$('.pokemon-normal').show(); $('.pokemon-shiny').hide(); $('#filter-type').html(' normal '); return false;">normal</a>
+        <a class="dropdown-item" href="#" onclick="$('.pokemon-normal').hide(); $('.pokemon-shiny').show(); $('#filter-type').html(' shiny '); return false;">shiny</a>
+      </div>
+    </div>
+    <label style="height: 38px; line-height: 38px; vertical-align: middle; margin: 0;"> pokémon.</label>
+  </div>
+{% for type in site.data.pokedex %}
+<div class="pokemon-{{ type[0] }}">
+{% for region in type[1] %}
+<h3 style="margin: 12px auto; border-bottom: 1px solid #808080;">{{ region[0] | capitalize }}</h3>
+<div class="grid grid-pokemon">
+{% for pokemon in region[1] %}
+<div class="{% if pokemon[1].caught == 0 %}need{% else %}have{% endif %}" style="{% if pokemon[1].caught == 0 %}filter: grayscale(100%) opacity(20%);{% endif %}">
+  <img src="{{ site.baseurl }}/node_modules/pokemon-icons/_icons/SVG/{{ pokemon[0] }}" alt="" />
+  <span style="font-size: 60%; line-height: 1;">{{ pokemon[1].name }}<br />#{{ pokemon[1].number }}</span>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+</div>
