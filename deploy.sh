@@ -15,7 +15,7 @@ yarn
 bundle exec jekyll build
 
 cd _site
-#ruby places.rb ${FOURSQUARE_TOKEN}
+ruby places.rb ${FOURSQUARE_TOKEN}
 git config user.email "nightwolf1298@gmail.com"
 git config user.name "NightWolf1298"
 git add --all
