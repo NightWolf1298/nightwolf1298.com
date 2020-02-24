@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" style="height: 100%;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A personal website for NightWolf1298.">
+    <meta name="theme-color" content="#5dde95">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NightWolf1298</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/favicon.png" sizes="any" type="image/png">
+    <link rel="stylesheet" href="/assets/main.css">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/chart.js/dist/Chart.js"></script>
+    <script>
+      $(document).ready(function() {
+        $.ajaxSetup({ cache: false });
+      });
+    </script>
+  </head>
+  <body style="background-color: #000; height: 100%">
+    <nav class="navbar navbar-dark bg-transparent" style="z-index: 999; pointer-events: none;">
+      <a class="navbar-brand" href="/" style="pointer-events: auto;">
+        <img src="/images/avatar.png" alt="NightWolf1298" class="rounded-circle" width="50" height="50">
+      </a>
+      <div class="dropdown" style="pointer-events: auto;">
+        <button class="navbar-toggler bg-dark" style="outline: none;" type="button" data-toggle="dropdown" aria-label="Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item active" href="/">About</a>
+          <a class="dropdown-item " href="/places">Places</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Furry</h6>
+          <a class="dropdown-item " href="/fursona">Fursona</a>
+          <a class="dropdown-item  disabled" href="/fursuit">Fursuit</a>
+          <a class="dropdown-item " href="/conventions">Conventions</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Gamer</h6>
+          <a class="dropdown-item " href="/pokemongo">Pokémon GO</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Other</h6>
+          <a class="dropdown-item " href="/credits">Credits</a>
+        </div>
+      </div>
+    </nav>
+
+<div class="container">
+  <h1 class="text-justify m-auto" style="width: 75%; margin-bottom: 76px !important;">31, male, new yorker, furry, coder, cook, gamer, queer. <a href="https://kovuthehusky.com">KovuTheHusky</a>'s husband.</h1>
+  <div class="grid grid-about" style="margin-bottom: 76px;">
+    <a href="https://facebook.com/raivo.breslin" style="background-color: #1877F2;">
+      <img src="/node_modules/simple-icons/icons/facebook.svg" alt="Facebook" style="filter: invert(1);" />
+      <span>Facebook</span>
+    </a>
+    <a href="https://foursquare.com/nightwolf1298" style="background-color: #F94877;">
+      <img src="/node_modules/simple-icons/icons/foursquare.svg" alt="Foursquare" style="filter: invert(1);" />
+      <span>Foursquare</span>
+    </a>
+    <a href="https://furaffinity.net/user/nightwolf1298" style="background-color: #FAAF3A;">
+      <img src="/node_modules/simple-icons/icons/furaffinity.svg" alt="FurAffinity" style="filter: invert(1);" />
+      <span>FurAffinity</span>
+    </a>
+    <a href="https://github.com/nightwolf1298" style="background-color: #181717;">
+      <img src="/node_modules/simple-icons/icons/github.svg" alt="GitHub" style="filter: invert(1);" />
+      <span>GitHub</span>
+    </a>
+    <a href="https://d.nightwolf1298.com/email" onclick="PopupCenter(this.href, 'Email - NightWolf1298', 396, 578); return false;" style="background-color: #D14836;">
+      <img src="/node_modules/simple-icons/icons/gmail.svg" alt="Gmail" style="filter: invert(1);" />
+      <span>Gmail</span>
+    </a>
+    <a href="https://reddit.com/user/nightwolf1298" style="background-color: #FF4500;">
+      <img src="/node_modules/simple-icons/icons/reddit.svg" alt="Reddit" style="filter: invert(1);" />
+      <span>Reddit</span>
+    </a>
+    <a href="https://steamcommunity.com/id/nightwolf1298" style="background-color: #000;">
+      <img src="/node_modules/simple-icons/icons/steam.svg" alt="Steam" style="filter: invert(1);" />
+      <span>Steam</span>
+    </a>
+    <a href="swarm://users/84213710" style="background-color: #FFA633;">
+      <img src="/node_modules/simple-icons/icons/swarm.svg" alt="Swarm" style="filter: invert(1);" />
+      <span>Swarm</span>
+    </a>
+    <a href="https://t.me/nightwolf1298" style="background-color: #2CA5E0;">
+      <img src="/node_modules/simple-icons/icons/telegram.svg" alt="Telegram" style="filter: invert(1);" />
+      <span>Telegram</span>
+    </a>
+    <a href="https://twitch.tv/nightwolf1298" style="background-color: #9146FF;">
+      <img src="/node_modules/simple-icons/icons/twitch.svg" alt="Twitch" style="filter: invert(1);" />
+      <span>Twitch</span>
+    </a>
+    <a href="https://twitter.com/nightwolf1298" style="background-color: #1DA1F2;">
+      <img src="/node_modules/simple-icons/icons/twitter.svg" alt="Twitter" style="filter: invert(1);" />
+      <span>Twitter</span>
+    </a>
+    <a href="https://youtube.com/user/nightwolf1298" style="background-color: #FF0000;">
+      <img src="/node_modules/simple-icons/icons/youtube.svg" alt="YouTube" style="filter: invert(1);" />
+      <span>YouTube</span>
+    </a>
+  </div>
+</div>
+<script>
+  function PopupCenter(url, title, w, h) {
+    var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : window.screenX;
+    var dualScreenTop = window.screenTop != undefined ? window.screenTop : window.screenY;
+    var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+    var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+    var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+    var top = ((height / 2) - (h / 2)) + dualScreenTop;
+    var newWindow = window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+    if (window.focus) {
+      newWindow.focus();
+    }
+  }
+</script>
+
+</body>
+</html>
