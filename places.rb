@@ -11,34 +11,53 @@ geojson = {
   'features' => []
 }
 
-JSON.parse(Net::HTTP.get(URI('https://api.foursquare.com/v2/users/self/venuehistory?oauth_token=' + ARGV[0] + '&v=20190819')))['response']['venues']['items'].each do |child|
-  geojson['features'] << {
-    'type' => 'Feature',
-    'geometry' => {
-      'type' => 'Point',
-      'coordinates' => [
-        child['venue']['location']['lng'],
-        child['venue']['location']['lat']
-      ]
-    },
-    'properties' => {
-      'id' => child['venue']['id'],
-      'name' => child['venue']['name'],
-      'address' => child['venue']['location']['formattedAddress']
+offset = 0
+unique = []
+
+loop do
+
+  res = JSON.parse(Net::HTTP.get(URI('https://api.foursquare.com/v2/users/self/checkins?oauth_token=' + ARGV[0] + '&v=20200303&limit=250&offset=' + offset.to_s)))
+
+  if (res['meta']['code'] != 200)
+    exit
+  end
+
+  res['response']['checkins']['items'].each do |child|
+    next if unique.include? child['venue']['id']
+    unique << child['venue']['id']
+    geojson['features'] << {
+      'type' => 'Feature',
+      'geometry' => {
+        'type' => 'Point',
+        'coordinates' => [
+          child['venue']['location']['lng'],
+          child['venue']['location']['lat']
+        ]
+      },
+      'properties' => {
+        'id' => child['venue']['id'],
+        'name' => child['venue']['name'],
+        'address' => child['venue']['location']['formattedAddress']
+      }
     }
-  }
-  if child['venue']['location']['lng'] > maxlng
-    maxlng = child['venue']['location']['lng'];
+    if child['venue']['location']['lng'] > maxlng
+      maxlng = child['venue']['location']['lng'];
+    end
+    if child['venue']['location']['lat'] > maxlat
+      maxlat = child['venue']['location']['lat'];
+    end
+    if child['venue']['location']['lng'] < minlng
+      minlng = child['venue']['location']['lng'];
+    end
+    if child['venue']['location']['lat'] < minlat
+      minlat = child['venue']['location']['lat'];
+    end
   end
-  if child['venue']['location']['lat'] > maxlat
-    maxlat = child['venue']['location']['lat'];
-  end
-  if child['venue']['location']['lng'] < minlng
-    minlng = child['venue']['location']['lng'];
-  end
-  if child['venue']['location']['lat'] < minlat
-    minlat = child['venue']['location']['lat'];
-  end
+
+  offset += 250
+
+  break if res['response']['checkins']['items'].length() == 0
+
 end
 
 bounds = [
