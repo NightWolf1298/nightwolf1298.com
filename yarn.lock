@@ -978,9 +978,9 @@ genfun@^5.0.0:
   integrity sha512-KGDOARWVga7+rnB3z9Sd2Letx515owfk0hSxHGuqjANb1M+x2bGZGqHLiozPsYMdM2OubeMni/Hpwmjq6qIUhA==
 
 gentle-fs@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/gentle-fs/-/gentle-fs-2.3.0.tgz#13538db5029400f98684be4894e8a7d8f0d1ea7f"
-  integrity sha512-3k2CgAmPxuz7S6nKK+AqFE2AdM1QuwqKLPKzIET3VRwK++3q96MsNFobScDjlCrq97ZJ8y5R725MOlm6ffUCjg==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/gentle-fs/-/gentle-fs-2.3.1.tgz#11201bf66c18f930ddca72cf69460bdfa05727b1"
+  integrity sha512-OlwBBwqCFPcjm33rF2BjW+Pr6/ll2741l+xooiwTCeaX2CA1ZuclavyMBe0/KlR21/XGsgY6hzEQZ15BdNa13Q==
   dependencies:
     aproba "^1.1.2"
     chownr "^1.1.2"
@@ -1451,9 +1451,9 @@ lcid@^2.0.0:
     invert-kv "^2.0.0"
 
 libcipm@^4.0.7:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/libcipm/-/libcipm-4.0.7.tgz#76cd675c98bdaae64db88b782b01b804b6d02c8a"
-  integrity sha512-fTq33otU3PNXxxCTCYCYe7V96o59v/o7bvtspmbORXpgFk+wcWrGf5x6tBgui5gCed/45/wtPomBsZBYm5KbIw==
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/libcipm/-/libcipm-4.0.8.tgz#dcea4919e10dfbce420327e63901613b9141bc89"
+  integrity sha512-IN3hh2yDJQtZZ5paSV4fbvJg4aHxCCg5tcZID/dSVlTuUiWktsgaldVljJv6Z5OUlYspx6xQkbR0efNodnIrOA==
   dependencies:
     bin-links "^1.1.2"
     bluebird "^3.5.1"
@@ -1461,7 +1461,7 @@ libcipm@^4.0.7:
     find-npm-prefix "^1.0.2"
     graceful-fs "^4.1.11"
     ini "^1.3.5"
-    lock-verify "^2.0.2"
+    lock-verify "^2.1.0"
     mkdirp "^0.5.1"
     npm-lifecycle "^3.0.0"
     npm-logical-tree "^1.2.1"
@@ -1872,7 +1872,7 @@ mississippi@^3.0.0:
     stream-each "^1.1.0"
     through2 "^2.0.0"
 
-mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.0:
+mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.4, mkdirp@~0.5.0:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.4.tgz#fd01504a6797ec5c9be81ff43d204961ed64a512"
   integrity sha512-iG9AK/dJLtJ0XNgTuDbSyNS3zECqDlAhnQW4CsNxBG3LQJBbHmRX1egw39DmtOdCAqY+dKXV+sgPgilNWUKMVw==
@@ -1922,9 +1922,9 @@ nice-try@^1.0.4:
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
 node-fetch-npm@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/node-fetch-npm/-/node-fetch-npm-2.0.3.tgz#efae4aacb0500444e449a51fc1467397775ebc38"
-  integrity sha512-DgwoKEsqLnFZtk3ap7GWBHcHwnUhsNmQqEDcdjfQ8GofLEFJ081NAd4Uin3R7RFZBWVJCwHISw1oaEqPgSLloA==
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/node-fetch-npm/-/node-fetch-npm-2.0.4.tgz#6507d0e17a9ec0be3bec516958a497cec54bf5a4"
+  integrity sha512-iOuIQDWDyjhv9qSDrj9aq/klt6F9z1p2otB3AV7v3zBDcL/x+OfGsvGQZZCcMZbUf4Ujw1xGNQkjvGnVT22cKg==
   dependencies:
     encoding "^0.1.11"
     json-parse-better-errors "^1.0.0"
@@ -1966,9 +1966,9 @@ normalize-package-data@^2.0.0, normalize-package-data@^2.3.2, normalize-package-
     validate-npm-package-license "^3.0.1"
 
 npm-audit-report@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/npm-audit-report/-/npm-audit-report-1.3.2.tgz#303bc78cd9e4c226415076a4f7e528c89fc77018"
-  integrity sha512-abeqS5ONyXNaZJPGAf6TOUMNdSe1Y6cpc9MLBRn+CuUoYbfdca6AxOyXVlfIv9OgKX+cacblbG5w7A6ccwoTPw==
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/npm-audit-report/-/npm-audit-report-1.3.3.tgz#8226deeb253b55176ed147592a3995442f2179ed"
+  integrity sha512-8nH/JjsFfAWMvn474HB9mpmMjrnKb1Hx/oTAdjv4PT9iZBvBxiZ+wtDUapHCJwLqYGQVPaAfs+vL5+5k9QndXw==
   dependencies:
     cli-table3 "^0.5.0"
     console-control-strings "^1.1.0"
@@ -1993,9 +1993,9 @@ npm-install-checks@^3.0.2:
     semver "^2.3.0 || 3.x || 4 || 5"
 
 npm-lifecycle@^3.0.0, npm-lifecycle@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/npm-lifecycle/-/npm-lifecycle-3.1.4.tgz#de6975c7d8df65f5150db110b57cce498b0b604c"
-  integrity sha512-tgs1PaucZwkxECGKhC/stbEgFyc3TGh2TJcg2CDr6jbvQRdteHNhmMeljRzpe4wgFAXQADoy1cSqqi7mtiAa5A==
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/npm-lifecycle/-/npm-lifecycle-3.1.5.tgz#9882d3642b8c82c815782a12e6a1bfeed0026309"
+  integrity sha512-lDLVkjfZmvmfvpvBzA4vzee9cn+Me4orq0QF8glbswJVEbIcSNWib7qGOffolysc3teCqbbPZZkzbr3GQZTL1g==
   dependencies:
     byline "^5.0.0"
     graceful-fs "^4.1.15"
@@ -2079,9 +2079,9 @@ npm-user-validate@~1.0.0:
   integrity sha1-jOyg9c6gTU6TUZ73LQVXp1Ei6VE=
 
 npm@^6.11.2:
-  version "6.14.3"
-  resolved "https://registry.yarnpkg.com/npm/-/npm-6.14.3.tgz#a122618543c6670765cf5e827cd996b5552f9b65"
-  integrity sha512-3tQYVEEdSGQGYoXhZvNqW8faqCidfMMaL387RdDo4Uu5kQy4IgvJ13NIsWVMQ6e3QWlbicNMSpFiyzYfMUuPDw==
+  version "6.14.4"
+  resolved "https://registry.yarnpkg.com/npm/-/npm-6.14.4.tgz#50a1c6274fb451ca18f6ff472d2a73f006adbd66"
+  integrity sha512-B8UDDbWvdkW6RgXFn8/h2cHJP/u/FPa4HWeGzW23aNEBARN3QPrRaHqPIZW2NSN3fW649gtgUDNZpaRs0zTMPw==
   dependencies:
     JSONStream "^1.3.5"
     abbrev "~1.1.1"
@@ -2141,7 +2141,7 @@ npm@^6.11.2:
     lru-cache "^5.1.1"
     meant "~1.0.1"
     mississippi "^3.0.0"
-    mkdirp "^0.5.3"
+    mkdirp "^0.5.4"
     move-concurrently "^1.0.1"
     node-gyp "^5.1.0"
     nopt "~4.0.1"
@@ -2472,7 +2472,7 @@ pify@^3.0.0:
 
 "pokemon-icons@https://github.com/TheArtificial/pokemon-icons":
   version "1.0.0"
-  resolved "https://github.com/TheArtificial/pokemon-icons#139c1b4e0e9caec9c5c3767654bf78fd9823525a"
+  resolved "https://github.com/TheArtificial/pokemon-icons#52da8ecd52d18181c0d1c612c26dccde9acfdb6d"
   dependencies:
     npm "^6.11.2"
 
@@ -2544,9 +2544,9 @@ pseudomap@^1.0.2:
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
 psl@^1.1.28:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/psl/-/psl-1.7.0.tgz#f1c4c47a8ef97167dea5d6bbf4816d736e884a3c"
-  integrity sha512-5NsSEDv8zY70ScRnOTn7bK7eanl2MvFrOrS/R6x+dBt5g1ghnj9Zv90kO8GwT8gxcu2ANyFprnFYB85IogIJOQ==
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
+  integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
 
 pump@^2.0.0:
   version "2.0.1"
