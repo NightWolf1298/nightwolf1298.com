@@ -9,7 +9,7 @@ set -e
 rm -rf _site
 mkdir _site
 
-git clone https://${GITHUB_TOKEN}@github.com/KovuTheHusky/nightwolf1298.com.git --branch gh-pages _site
+git clone https://${GITHUB_TOKEN}@github.com/NightWolf1298/nightwolf1298.com.git --branch gh-pages _site
 
 yarn
 bundle exec jekyll build
