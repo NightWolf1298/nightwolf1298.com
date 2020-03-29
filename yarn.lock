@@ -2472,7 +2472,7 @@ pify@^3.0.0:
 
 "pokemon-icons@https://github.com/TheArtificial/pokemon-icons":
   version "1.0.0"
-  resolved "https://github.com/TheArtificial/pokemon-icons#52da8ecd52d18181c0d1c612c26dccde9acfdb6d"
+  resolved "https://github.com/TheArtificial/pokemon-icons#99ae3496154b29c0f2c1ee48b42530128c64a5f9"
   dependencies:
     npm "^6.11.2"
 
