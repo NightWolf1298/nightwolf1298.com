@@ -3823,7 +3823,7 @@
         "number": 809,
         "name": "Melmetal",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       }
     }
   },
@@ -4001,7 +4001,7 @@
         "number": 26,
         "name": "Raichu",
         "variant": 1,
-        "caught": 1
+        "caught": 0
       },
       "027-sandshrew-shiny.svg": {
         "number": 27,
@@ -4049,7 +4049,7 @@
         "number": 32,
         "name": "Nidoran ♂",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "033-nidorino-shiny.svg": {
         "number": 33,
@@ -4103,13 +4103,13 @@
         "number": 39,
         "name": "Jigglypuff",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "040-wigglytuff-shiny.svg": {
         "number": 40,
         "name": "Wigglytuff",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "041-zubat-shiny.svg": {
         "number": 41,
@@ -4217,7 +4217,7 @@
         "number": 54,
         "name": "Psyduck",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "055-golduck-shiny.svg": {
         "number": 55,
@@ -4241,7 +4241,7 @@
         "number": 58,
         "name": "Growlithe",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "059-arcanine-shiny.svg": {
         "number": 59,
@@ -4337,13 +4337,13 @@
         "number": 74,
         "name": "Geodude",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "074-geodude-alola-shiny.svg": {
         "number": 74,
         "name": "Geodude",
         "variant": 1,
-        "caught": 1
+        "caught": 0
       },
       "075-golem-alola-shiny.svg": {
         "number": 75,
@@ -4373,7 +4373,7 @@
         "number": 77,
         "name": "Ponyta",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "078-rapidash-shiny.svg": {
         "number": 78,
@@ -4463,7 +4463,7 @@
         "number": 90,
         "name": "Shellder",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "091-cloyster-shiny.svg": {
         "number": 91,
@@ -4493,7 +4493,7 @@
         "number": 95,
         "name": "Onix",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "096-drowzee-shiny.svg": {
         "number": 96,
@@ -4541,13 +4541,13 @@
         "number": 103,
         "name": "Exeggutor",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "103-exeggutor-alola-shiny.svg": {
         "number": 103,
         "name": "Exeggutor",
         "variant": 1,
-        "caught": 0
+        "caught": 1
       },
       "104-cubone-shiny.svg": {
         "number": 104,
@@ -4631,13 +4631,13 @@
         "number": 116,
         "name": "Horsea",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "117-seadra-shiny.svg": {
         "number": 117,
         "name": "Seadra",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "118-goldeen-shiny.svg": {
         "number": 118,
@@ -4673,7 +4673,7 @@
         "number": 123,
         "name": "Scyther",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "124-jynx-shiny.svg": {
         "number": 124,
@@ -4691,7 +4691,7 @@
         "number": 126,
         "name": "Magmar",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "127-pinsir-shiny.svg": {
         "number": 127,
@@ -4739,19 +4739,19 @@
         "number": 134,
         "name": "Vaporeon",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "135-jolteon-shiny.svg": {
         "number": 135,
         "name": "Jolteon",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "136-flareon-shiny.svg": {
         "number": 136,
         "name": "Flareon",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "137-porygon-shiny.svg": {
         "number": 137,
@@ -4763,13 +4763,13 @@
         "number": 138,
         "name": "Omanyte",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "139-omastar-shiny.svg": {
         "number": 139,
         "name": "Omastar",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "140-kabuto-shiny.svg": {
         "number": 140,
@@ -4805,7 +4805,7 @@
         "number": 145,
         "name": "Zapdos",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "146-moltres-shiny.svg": {
         "number": 146,
@@ -4975,13 +4975,13 @@
         "number": 173,
         "name": "Cleffa",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "174-igglybuff-shiny.svg": {
         "number": 174,
         "name": "Igglybuff",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "175-togepi-shiny.svg": {
         "number": 175,
@@ -4999,13 +4999,13 @@
         "number": 177,
         "name": "Natu",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "178-xatu-shiny.svg": {
         "number": 178,
         "name": "Xatu",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "179-mareep-shiny.svg": {
         "number": 179,
@@ -5035,13 +5035,13 @@
         "number": 183,
         "name": "Marill",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "184-azumarill-shiny.svg": {
         "number": 184,
         "name": "Azumarill",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "185-sudowoodo-shiny.svg": {
         "number": 185,
@@ -5095,7 +5095,7 @@
         "number": 193,
         "name": "Yanma",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "194-wooper-shiny.svg": {
         "number": 194,
@@ -5125,7 +5125,7 @@
         "number": 198,
         "name": "Murkrow",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "199-slowking-shiny.svg": {
         "number": 199,
@@ -5137,7 +5137,7 @@
         "number": 200,
         "name": "Misdreavus",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "201-unown-exclamation-shiny.svg": {
         "number": 201,
@@ -5359,7 +5359,7 @@
         "number": 210,
         "name": "Granbull",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "211-qwilfish-shiny.svg": {
         "number": 211,
@@ -5371,7 +5371,7 @@
         "number": 212,
         "name": "Scizor",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "213-shuckle-shiny.svg": {
         "number": 213,
@@ -5389,7 +5389,7 @@
         "number": 215,
         "name": "Sneasel",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "216-teddiursa-shiny.svg": {
         "number": 216,
@@ -5527,7 +5527,7 @@
         "number": 238,
         "name": "Smoochum",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "239-elekid-shiny.svg": {
         "number": 239,
@@ -5539,7 +5539,7 @@
         "number": 240,
         "name": "Magby",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "241-miltank-shiny.svg": {
         "number": 241,
@@ -5877,7 +5877,7 @@
         "number": 296,
         "name": "Makuhita",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "297-hariyama-shiny.svg": {
         "number": 297,
@@ -5889,7 +5889,7 @@
         "number": 298,
         "name": "Azurill",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "299-nosepass-shiny.svg": {
         "number": 299,
@@ -6027,7 +6027,7 @@
         "number": 321,
         "name": "Wailord",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "322-numel-shiny.svg": {
         "number": 322,
@@ -6117,19 +6117,19 @@
         "number": 328,
         "name": "Trapinch",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "329-vibrava-shiny.svg": {
         "number": 329,
         "name": "Vibrava",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "330-flygon-shiny.svg": {
         "number": 330,
         "name": "Flygon",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "331-cacnea-shiny.svg": {
         "number": 331,
@@ -6177,7 +6177,7 @@
         "number": 338,
         "name": "Solrock",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "339-barboach-shiny.svg": {
         "number": 339,
@@ -6219,13 +6219,13 @@
         "number": 345,
         "name": "Lileep",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "346-cradily-shiny.svg": {
         "number": 346,
         "name": "Cradily",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "347-anorith-shiny.svg": {
         "number": 347,
@@ -6267,7 +6267,7 @@
         "number": 353,
         "name": "Shuppet",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "354-banette-shiny.svg": {
         "number": 354,
@@ -6279,7 +6279,7 @@
         "number": 355,
         "name": "Duskull",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "356-dusclops-shiny.svg": {
         "number": 356,
@@ -6303,7 +6303,7 @@
         "number": 359,
         "name": "Absol",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "360-wynaut-shiny.svg": {
         "number": 360,
@@ -6321,7 +6321,7 @@
         "number": 362,
         "name": "Glalie",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "363-spheal-shiny.svg": {
         "number": 363,
@@ -6351,7 +6351,7 @@
         "number": 367,
         "name": "Huntail",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "368-gorebyss-shiny.svg": {
         "number": 368,
@@ -6447,7 +6447,7 @@
         "number": 383,
         "name": "Groudon",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "384-rayquaza-shiny.svg": {
         "number": 384,
@@ -6527,19 +6527,19 @@
         "number": 393,
         "name": "Piplup",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "394-prinplup-shiny.svg": {
         "number": 394,
         "name": "Prinplup",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "395-empoleon-shiny.svg": {
         "number": 395,
         "name": "Empoleon",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "396-starly-shiny.svg": {
         "number": 396,
@@ -6587,13 +6587,13 @@
         "number": 403,
         "name": "Shinx",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "404-luxio-shiny.svg": {
         "number": 404,
         "name": "Luxio",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "405-luxray-shiny.svg": {
         "number": 405,
@@ -6605,7 +6605,7 @@
         "number": 406,
         "name": "Budew",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "407-roserade-shiny.svg": {
         "number": 407,
@@ -6761,7 +6761,7 @@
         "number": 425,
         "name": "Drifloon",
         "variant": 0,
-        "caught": 0
+        "caught": 1
       },
       "426-drifblim-shiny.svg": {
         "number": 426,
@@ -6773,7 +6773,7 @@
         "number": 427,
         "name": "Buneary",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "428-lopunny-shiny.svg": {
         "number": 428,
@@ -6827,7 +6827,7 @@
         "number": 436,
         "name": "Bronzor",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "437-bronzong-shiny.svg": {
         "number": 437,
@@ -7025,7 +7025,7 @@
         "number": 467,
         "name": "Magmortar",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "468-togekiss-shiny.svg": {
         "number": 468,
@@ -7187,7 +7187,7 @@
         "number": 488,
         "name": "Cresselia",
         "variant": 0,
-        "caught": 1
+        "caught": 0
       },
       "489-phione-shiny.svg": {
         "number": 489,
