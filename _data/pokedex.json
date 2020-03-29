@@ -3693,6 +3693,36 @@
         "variant": 0,
         "caught": 0
       },
+      "522-blitzle.svg": {
+        "number": 522,
+        "name": "Blitzle",
+        "variant": 0,
+        "caught": 0
+      },
+      "523-zebstrika.svg": {
+        "number": 523,
+        "name": "Zebstrika",
+        "variant": 0,
+        "caught": 0
+      },
+      "524-roggenrola.svg": {
+        "number": 524,
+        "name": "Roggenrola",
+        "variant": 0,
+        "caught": 1
+      },
+      "525-boldore.svg": {
+        "number": 525,
+        "name": "Boldore",
+        "variant": 0,
+        "caught": 0
+      },
+      "526-gigalith.svg": {
+        "number": 526,
+        "name": "Gigalith",
+        "variant": 0,
+        "caught": 0
+      },
       "527-woobat.svg": {
         "number": 527,
         "name": "Woobat",
@@ -3702,6 +3732,42 @@
       "528-swoobat.svg": {
         "number": 528,
         "name": "Swoobat",
+        "variant": 0,
+        "caught": 0
+      },
+      "529-drilbur.svg": {
+        "number": 529,
+        "name": "Drilbur",
+        "variant": 0,
+        "caught": 1
+      },
+      "530-excadrill.svg": {
+        "number": 530,
+        "name": "Excadrill",
+        "variant": 0,
+        "caught": 0
+      },
+      "531-audino.svg": {
+        "number": 531,
+        "name": "Audino",
+        "variant": 0,
+        "caught": 0
+      },
+      "532-timburr.svg": {
+        "number": 532,
+        "name": "Timburr",
+        "variant": 0,
+        "caught": 1
+      },
+      "533-gurdurr.svg": {
+        "number": 533,
+        "name": "Gurdurr",
+        "variant": 0,
+        "caught": 0
+      },
+      "534-conkeldurr.svg": {
+        "number": 534,
+        "name": "Conkeldurr",
         "variant": 0,
         "caught": 0
       },
@@ -3723,6 +3789,72 @@
         "variant": 0,
         "caught": 0
       },
+      "538-throh.svg": {
+        "number": 538,
+        "name": "Throh",
+        "variant": 0,
+        "caught": 1
+      },
+      "539-sawk.svg": {
+        "number": 539,
+        "name": "Sawk",
+        "variant": 0,
+        "caught": 0
+      },
+      "540-sewaddle.svg": {
+        "number": 540,
+        "name": "Sewaddle",
+        "variant": 0,
+        "caught": 0
+      },
+      "541-swadloon.svg": {
+        "number": 541,
+        "name": "Swadloon",
+        "variant": 0,
+        "caught": 0
+      },
+      "542-leavanny.svg": {
+        "number": 542,
+        "name": "Leavanny",
+        "variant": 0,
+        "caught": 0
+      },
+      "543-venipede.svg": {
+        "number": 543,
+        "name": "Venipede",
+        "variant": 0,
+        "caught": 1
+      },
+      "544-whirlipede.svg": {
+        "number": 544,
+        "name": "Whirlipede",
+        "variant": 0,
+        "caught": 0
+      },
+      "545-scolipede.svg": {
+        "number": 545,
+        "name": "Scolipede",
+        "variant": 0,
+        "caught": 0
+      },
+      "546-cottonee.svg": {
+        "number": 546,
+        "name": "Cottonee",
+        "variant": 0,
+        "caught": 0
+      },
+      "547-whimsicott.svg": {
+        "number": 547,
+        "name": "Whimsicott",
+        "variant": 0,
+        "caught": 0
+      },
+      "548-petili.svg": {
+        "number": 548,
+        "name": "Petili",
+        "variant": 0,
+        "caught": 0
+      },
       "548-petilil.svg": {
         "number": 548,
         "name": "Petilil",
@@ -3732,6 +3864,288 @@
       "549-lilligant.svg": {
         "number": 549,
         "name": "Lilligant",
+        "variant": 0,
+        "caught": 0
+      },
+      "550-basculin-blue.svg": {
+        "number": 550,
+        "name": "Basculin",
+        "variant": 0,
+        "caught": 1
+      },
+      "550-basculin-red.svg": {
+        "number": 550,
+        "name": "Basculin",
+        "variant": 0,
+        "caught": 0
+      },
+      "551-sandile.svg": {
+        "number": 551,
+        "name": "Sandile",
+        "variant": 0,
+        "caught": 0
+      },
+      "552-krokorok.svg": {
+        "number": 552,
+        "name": "Krokorok",
+        "variant": 0,
+        "caught": 0
+      },
+      "553-krookodile.svg": {
+        "number": 553,
+        "name": "Krookodile",
+        "variant": 0,
+        "caught": 0
+      },
+      "554-darumaka.svg": {
+        "number": 554,
+        "name": "Darumaka",
+        "variant": 0,
+        "caught": 1
+      },
+      "555-darmanitan.svg": {
+        "number": 555,
+        "name": "Darmanitan",
+        "variant": 0,
+        "caught": 0
+      },
+      "556-maractus.svg": {
+        "number": 556,
+        "name": "Maractus",
+        "variant": 0,
+        "caught": 0
+      },
+      "557-dwebble.svg": {
+        "number": 557,
+        "name": "Dwebble",
+        "variant": 0,
+        "caught": 1
+      },
+      "558-crustle.svg": {
+        "number": 558,
+        "name": "Crustle",
+        "variant": 0,
+        "caught": 0
+      },
+      "559-scraggy.svg": {
+        "number": 559,
+        "name": "Scraggy",
+        "variant": 0,
+        "caught": 0
+      },
+      "560-scrafty.svg": {
+        "number": 560,
+        "name": "Scrafty",
+        "variant": 0,
+        "caught": 0
+      },
+      "561-sigilyph.svg": {
+        "number": 561,
+        "name": "Sigilyph",
+        "variant": 0,
+        "caught": 0
+      },
+      "562-yamask.svg": {
+        "number": 562,
+        "name": "Yamask",
+        "variant": 0,
+        "caught": 1
+      },
+      "563-cofagrigus.svg": {
+        "number": 563,
+        "name": "Cofagrigus",
+        "variant": 0,
+        "caught": 0
+      },
+      "564-tirtouga.svg": {
+        "number": 564,
+        "name": "Tirtouga",
+        "variant": 0,
+        "caught": 0
+      },
+      "565-carracosta.svg": {
+        "number": 565,
+        "name": "Carracosta",
+        "variant": 0,
+        "caught": 0
+      },
+      "566-archen.svg": {
+        "number": 566,
+        "name": "Archen",
+        "variant": 0,
+        "caught": 0
+      },
+      "567-archeops.svg": {
+        "number": 567,
+        "name": "Archeops",
+        "variant": 0,
+        "caught": 0
+      },
+      "568-trubbish.svg": {
+        "number": 568,
+        "name": "Trubbish",
+        "variant": 0,
+        "caught": 1
+      },
+      "569-garbodor.svg": {
+        "number": 569,
+        "name": "Garbodor",
+        "variant": 0,
+        "caught": 0
+      },
+      "570-zorua.svg": {
+        "number": 570,
+        "name": "Zorua",
+        "variant": 0,
+        "caught": 0
+      },
+      "571-zoroark.svg": {
+        "number": 571,
+        "name": "Zoroark",
+        "variant": 0,
+        "caught": 0
+      },
+      "572-minccino.svg": {
+        "number": 572,
+        "name": "Minccino",
+        "variant": 0,
+        "caught": 1
+      },
+      "573-cinccino.svg": {
+        "number": 573,
+        "name": "Cinccino",
+        "variant": 0,
+        "caught": 0
+      },
+      "574-gothita.svg": {
+        "number": 574,
+        "name": "Gothita",
+        "variant": 0,
+        "caught": 1
+      },
+      "575-gothorita.svg": {
+        "number": 575,
+        "name": "Gothorita",
+        "variant": 0,
+        "caught": 0
+      },
+      "576-gothitelle.svg": {
+        "number": 576,
+        "name": "Gothitelle",
+        "variant": 0,
+        "caught": 0
+      },
+      "577-solosis.svg": {
+        "number": 577,
+        "name": "Solosis",
+        "variant": 0,
+        "caught": 0
+      },
+      "578-duosion.svg": {
+        "number": 578,
+        "name": "Duosion",
+        "variant": 0,
+        "caught": 0
+      },
+      "579-reuniclus.svg": {
+        "number": 579,
+        "name": "Reuniclus",
+        "variant": 0,
+        "caught": 0
+      },
+      "580-ducklett.svg": {
+        "number": 580,
+        "name": "Ducklett",
+        "variant": 0,
+        "caught": 0
+      },
+      "581-swanna.svg": {
+        "number": 581,
+        "name": "Swanna",
+        "variant": 0,
+        "caught": 0
+      },
+      "582-vanillite.svg": {
+        "number": 582,
+        "name": "Vanillite",
+        "variant": 0,
+        "caught": 0
+      },
+      "583-vanillish.svg": {
+        "number": 583,
+        "name": "Vanillish",
+        "variant": 0,
+        "caught": 0
+      },
+      "584-vanilluxe.svg": {
+        "number": 584,
+        "name": "Vanilluxe",
+        "variant": 0,
+        "caught": 0
+      },
+      "585-deerling-autumn.svg": {
+        "number": 585,
+        "name": "Deerling",
+        "variant": 0,
+        "caught": 0
+      },
+      "585-deerling-spring.svg": {
+        "number": 585,
+        "name": "Deerling",
+        "variant": 0,
+        "caught": 0
+      },
+      "585-deerling-summer.svg": {
+        "number": 585,
+        "name": "Deerling",
+        "variant": 0,
+        "caught": 0
+      },
+      "585-deerling-winter.svg": {
+        "number": 585,
+        "name": "Deerling",
+        "variant": 0,
+        "caught": 0
+      },
+      "586-sawsbuck-autumn.svg": {
+        "number": 586,
+        "name": "Sawsbuck",
+        "variant": 0,
+        "caught": 0
+      },
+      "586-sawsbuck-spring.svg": {
+        "number": 586,
+        "name": "Sawsbuck",
+        "variant": 0,
+        "caught": 0
+      },
+      "586-sawsbuck-summer.svg": {
+        "number": 586,
+        "name": "Sawsbuck",
+        "variant": 0,
+        "caught": 0
+      },
+      "586-sawsbuck-winter.svg": {
+        "number": 586,
+        "name": "Sawsbuck",
+        "variant": 0,
+        "caught": 0
+      },
+      "587-emolga.svg": {
+        "number": 587,
+        "name": "Emolga",
+        "variant": 0,
+        "caught": 0
+      },
+      "588-karrablast.svg": {
+        "number": 588,
+        "name": "Karrablast",
+        "variant": 0,
+        "caught": 1
+      },
+      "589-escavalier.svg": {
+        "number": 589,
+        "name": "Escavalier",
         "variant": 0,
         "caught": 0
       },
@@ -3771,6 +4185,36 @@
         "variant": 0,
         "caught": 0
       },
+      "594-alomomola.svg": {
+        "number": 594,
+        "name": "Alomomola",
+        "variant": 0,
+        "caught": 0
+      },
+      "595-joltik.svg": {
+        "number": 595,
+        "name": "Joltik",
+        "variant": 0,
+        "caught": 1
+      },
+      "596-galvantula.svg": {
+        "number": 596,
+        "name": "Galvantula",
+        "variant": 0,
+        "caught": 0
+      },
+      "597-ferroseed.svg": {
+        "number": 597,
+        "name": "Ferroseed",
+        "variant": 0,
+        "caught": 1
+      },
+      "598-ferrothorn.svg": {
+        "number": 598,
+        "name": "Ferrothorn",
+        "variant": 0,
+        "caught": 0
+      },
       "599-klink.svg": {
         "number": 599,
         "name": "Klink",
@@ -3789,6 +4233,36 @@
         "variant": 0,
         "caught": 0
       },
+      "602-tynamo.svg": {
+        "number": 602,
+        "name": "Tynamo",
+        "variant": 0,
+        "caught": 0
+      },
+      "603-eelektrik.svg": {
+        "number": 603,
+        "name": "Eelektrik",
+        "variant": 0,
+        "caught": 0
+      },
+      "604-eelektross.svg": {
+        "number": 604,
+        "name": "Eelektross",
+        "variant": 0,
+        "caught": 0
+      },
+      "605-elgyem.svg": {
+        "number": 605,
+        "name": "Elgyem",
+        "variant": 0,
+        "caught": 0
+      },
+      "606-beheeyem.svg": {
+        "number": 606,
+        "name": "Beheeyem",
+        "variant": 0,
+        "caught": 0
+      },
       "607-litwick.svg": {
         "number": 607,
         "name": "Litwick",
@@ -3804,6 +4278,276 @@
       "609-chandelure.svg": {
         "number": 609,
         "name": "Chandelure",
+        "variant": 0,
+        "caught": 0
+      },
+      "610-axew.svg": {
+        "number": 610,
+        "name": "Axew",
+        "variant": 0,
+        "caught": 0
+      },
+      "611-fraxure.svg": {
+        "number": 611,
+        "name": "Fraxure",
+        "variant": 0,
+        "caught": 0
+      },
+      "612-haxorus.svg": {
+        "number": 612,
+        "name": "Haxorus",
+        "variant": 0,
+        "caught": 0
+      },
+      "613-cubchoo.svg": {
+        "number": 613,
+        "name": "Cubchoo",
+        "variant": 0,
+        "caught": 1
+      },
+      "614-beartic.svg": {
+        "number": 614,
+        "name": "Beartic",
+        "variant": 0,
+        "caught": 0
+      },
+      "615-cryogonal.svg": {
+        "number": 615,
+        "name": "Cryogonal",
+        "variant": 0,
+        "caught": 1
+      },
+      "616-shelmet.svg": {
+        "number": 616,
+        "name": "Shelmet",
+        "variant": 0,
+        "caught": 1
+      },
+      "617-accelgor.svg": {
+        "number": 617,
+        "name": "Accelgor",
+        "variant": 0,
+        "caught": 0
+      },
+      "618-stunfisk.svg": {
+        "number": 618,
+        "name": "Stunfisk",
+        "variant": 0,
+        "caught": 0
+      },
+      "619-mienfoo.svg": {
+        "number": 619,
+        "name": "Mienfoo",
+        "variant": 0,
+        "caught": 0
+      },
+      "620-mienshao.svg": {
+        "number": 620,
+        "name": "Mienshao",
+        "variant": 0,
+        "caught": 0
+      },
+      "621-druddigon.svg": {
+        "number": 621,
+        "name": "Druddigon",
+        "variant": 0,
+        "caught": 0
+      },
+      "622-golett.svg": {
+        "number": 622,
+        "name": "Golett",
+        "variant": 0,
+        "caught": 0
+      },
+      "623-golurk.svg": {
+        "number": 623,
+        "name": "Golurk",
+        "variant": 0,
+        "caught": 0
+      },
+      "624-pawniard.svg": {
+        "number": 624,
+        "name": "Pawniard",
+        "variant": 0,
+        "caught": 0
+      },
+      "625-bisharp.svg": {
+        "number": 625,
+        "name": "Bisharp",
+        "variant": 0,
+        "caught": 0
+      },
+      "626-bouffalant.svg": {
+        "number": 626,
+        "name": "Bouffalant",
+        "variant": 0,
+        "caught": 0
+      },
+      "627-rufflet.svg": {
+        "number": 627,
+        "name": "Rufflet",
+        "variant": 0,
+        "caught": 0
+      },
+      "628-braviary.svg": {
+        "number": 628,
+        "name": "Braviary",
+        "variant": 0,
+        "caught": 0
+      },
+      "629-vullaby.svg": {
+        "number": 629,
+        "name": "Vullaby",
+        "variant": 0,
+        "caught": 0
+      },
+      "630-mandibuzz.svg": {
+        "number": 630,
+        "name": "Mandibuzz",
+        "variant": 0,
+        "caught": 0
+      },
+      "631-heatmor.svg": {
+        "number": 631,
+        "name": "Heatmor",
+        "variant": 0,
+        "caught": 1
+      },
+      "632-durant.svg": {
+        "number": 632,
+        "name": "Durant",
+        "variant": 0,
+        "caught": 0
+      },
+      "633-deino.svg": {
+        "number": 633,
+        "name": "Deino",
+        "variant": 0,
+        "caught": 1
+      },
+      "634-zweilous.svg": {
+        "number": 634,
+        "name": "Zweilous",
+        "variant": 0,
+        "caught": 0
+      },
+      "635-hydreigon.svg": {
+        "number": 635,
+        "name": "Hydreigon",
+        "variant": 0,
+        "caught": 0
+      },
+      "636-larvesta.svg": {
+        "number": 636,
+        "name": "Larvesta",
+        "variant": 0,
+        "caught": 0
+      },
+      "637-volcarona.svg": {
+        "number": 637,
+        "name": "Volcarona",
+        "variant": 0,
+        "caught": 0
+      },
+      "638-cobalion.svg": {
+        "number": 638,
+        "name": "Cobalion",
+        "variant": 0,
+        "caught": 1
+      },
+      "639-terrakion.svg": {
+        "number": 639,
+        "name": "Terrakion",
+        "variant": 0,
+        "caught": 0
+      },
+      "640-virizion.svg": {
+        "number": 640,
+        "name": "Virizion",
+        "variant": 0,
+        "caught": 1
+      },
+      "641-tornadus-therian.svg": {
+        "number": 641,
+        "name": "Tornadus",
+        "variant": 0,
+        "caught": 0
+      },
+      "641-tornadus.svg": {
+        "number": 641,
+        "name": "Tornadus",
+        "variant": 0,
+        "caught": 1
+      },
+      "642-thundurus-therian.svg": {
+        "number": 642,
+        "name": "Thundurus",
+        "variant": 0,
+        "caught": 0
+      },
+      "642-thundurus.svg": {
+        "number": 642,
+        "name": "Thundurus",
+        "variant": 0,
+        "caught": 0
+      },
+      "643-reshiram.svg": {
+        "number": 643,
+        "name": "Reshiram",
+        "variant": 0,
+        "caught": 0
+      },
+      "644-zekrom.svg": {
+        "number": 644,
+        "name": "Zekrom",
+        "variant": 0,
+        "caught": 0
+      },
+      "645-landorus-therian.svg": {
+        "number": 645,
+        "name": "Landorus",
+        "variant": 0,
+        "caught": 0
+      },
+      "645-landorus.svg": {
+        "number": 645,
+        "name": "Landorus",
+        "variant": 0,
+        "caught": 0
+      },
+      "646-kyurem.svg": {
+        "number": 646,
+        "name": "Kyurem",
+        "variant": 0,
+        "caught": 0
+      },
+      "647-keldeo-resolute.svg": {
+        "number": 647,
+        "name": "Keldeo",
+        "variant": 0,
+        "caught": 0
+      },
+      "647-keldeo.svg": {
+        "number": 647,
+        "name": "Keldeo",
+        "variant": 0,
+        "caught": 0
+      },
+      "648-meloetta-aria.svg": {
+        "number": 648,
+        "name": "Meloetta",
+        "variant": 0,
+        "caught": 0
+      },
+      "648-meloetta-pirouette.svg": {
+        "number": 648,
+        "name": "Meloetta",
+        "variant": 0,
+        "caught": 0
+      },
+      "649-genesect.svg": {
+        "number": 649,
+        "name": "Genesect",
         "variant": 0,
         "caught": 0
       }
@@ -7227,6 +7971,744 @@
       }
     },
     "unova": {
+      "522-blitzle-shiny.svg": {
+        "number": 522,
+        "name": "Blitzle",
+        "variant": 0,
+        "caught": 0
+      },
+      "523-zebstrika-shiny.svg": {
+        "number": 523,
+        "name": "Zebstrika",
+        "variant": 0,
+        "caught": 0
+      },
+      "524-roggenrola-shiny.svg": {
+        "number": 524,
+        "name": "Roggenrola",
+        "variant": 0,
+        "caught": 0
+      },
+      "525-boldore-shiny.svg": {
+        "number": 525,
+        "name": "Boldore",
+        "variant": 0,
+        "caught": 0
+      },
+      "526-gigalith-shiny.svg": {
+        "number": 526,
+        "name": "Gigalith",
+        "variant": 0,
+        "caught": 0
+      },
+      "529-drilbur-shiny.svg": {
+        "number": 529,
+        "name": "Drilbur",
+        "variant": 0,
+        "caught": 0
+      },
+      "530-excadrill-shiny.svg": {
+        "number": 530,
+        "name": "Excadrill",
+        "variant": 0,
+        "caught": 0
+      },
+      "531-audino-shiny.svg": {
+        "number": 531,
+        "name": "Audino",
+        "variant": 0,
+        "caught": 0
+      },
+      "532-timburr-shiny.svg": {
+        "number": 532,
+        "name": "Timburr",
+        "variant": 0,
+        "caught": 0
+      },
+      "533-gurdurr-shiny.svg": {
+        "number": 533,
+        "name": "Gurdurr",
+        "variant": 0,
+        "caught": 0
+      },
+      "534-conkeldurr-shiny.svg": {
+        "number": 534,
+        "name": "Conkeldurr",
+        "variant": 0,
+        "caught": 0
+      },
+      "538-throh-shiny.svg": {
+        "number": 538,
+        "name": "Throh",
+        "variant": 0,
+        "caught": 0
+      },
+      "539-sawk-shiny.svg": {
+        "number": 539,
+        "name": "Sawk",
+        "variant": 0,
+        "caught": 0
+      },
+      "540-sewaddle-shiny.svg": {
+        "number": 540,
+        "name": "Sewaddle",
+        "variant": 0,
+        "caught": 0
+      },
+      "541-swadloon-shiny.svg": {
+        "number": 541,
+        "name": "Swadloon",
+        "variant": 0,
+        "caught": 0
+      },
+      "542-leavanny-shiny.svg": {
+        "number": 542,
+        "name": "Leavanny",
+        "variant": 0,
+        "caught": 0
+      },
+      "543-venipede-shiny.svg": {
+        "number": 543,
+        "name": "Venipede",
+        "variant": 0,
+        "caught": 0
+      },
+      "544-whirlipede-shiny.svg": {
+        "number": 544,
+        "name": "Whirlipede",
+        "variant": 0,
+        "caught": 0
+      },
+      "545-scolipede-shiny.svg": {
+        "number": 545,
+        "name": "Scolipede",
+        "variant": 0,
+        "caught": 0
+      },
+      "546-cottonee-shiny.svg": {
+        "number": 546,
+        "name": "Cottonee",
+        "variant": 0,
+        "caught": 0
+      },
+      "547-whimsicott-shiny.svg": {
+        "number": 547,
+        "name": "Whimsicott",
+        "variant": 0,
+        "caught": 0
+      },
+      "550-basculin-blue-shiny.svg": {
+        "number": 550,
+        "name": "Basculin",
+        "variant": 0,
+        "caught": 0
+      },
+      "550-basculin-red-shiny.svg": {
+        "number": 550,
+        "name": "Basculin",
+        "variant": 0,
+        "caught": 0
+      },
+      "551-sandile-shiny.svg": {
+        "number": 551,
+        "name": "Sandile",
+        "variant": 0,
+        "caught": 0
+      },
+      "552-krokorok-shiny.svg": {
+        "number": 552,
+        "name": "Krokorok",
+        "variant": 0,
+        "caught": 0
+      },
+      "553-krookodile-shiny.svg": {
+        "number": 553,
+        "name": "Krookodile",
+        "variant": 0,
+        "caught": 0
+      },
+      "554-darumaka-shiny.svg": {
+        "number": 554,
+        "name": "Darumaka",
+        "variant": 0,
+        "caught": 0
+      },
+      "555-darmanitan-shiny.svg": {
+        "number": 555,
+        "name": "Darmanitan",
+        "variant": 0,
+        "caught": 0
+      },
+      "556-maractus-shiny.svg": {
+        "number": 556,
+        "name": "Maractus",
+        "variant": 0,
+        "caught": 0
+      },
+      "557-dwebble-shiny.svg": {
+        "number": 557,
+        "name": "Dwebble",
+        "variant": 0,
+        "caught": 0
+      },
+      "558-crustle-shiny.svg": {
+        "number": 558,
+        "name": "Crustle",
+        "variant": 0,
+        "caught": 0
+      },
+      "559-scraggy-shiny.svg": {
+        "number": 559,
+        "name": "Scraggy",
+        "variant": 0,
+        "caught": 0
+      },
+      "560-scrafty-shiny.svg": {
+        "number": 560,
+        "name": "Scrafty",
+        "variant": 0,
+        "caught": 0
+      },
+      "561-sigilyph-shiny.svg": {
+        "number": 561,
+        "name": "Sigilyph",
+        "variant": 0,
+        "caught": 0
+      },
+      "562-yamask-shiny.svg": {
+        "number": 562,
+        "name": "Yamask",
+        "variant": 0,
+        "caught": 0
+      },
+      "563-cofagrigus-shiny.svg": {
+        "number": 563,
+        "name": "Cofagrigus",
+        "variant": 0,
+        "caught": 0
+      },
+      "564-tirtouga-shiny.svg": {
+        "number": 564,
+        "name": "Tirtouga",
+        "variant": 0,
+        "caught": 0
+      },
+      "565-carracosta-shiny.svg": {
+        "number": 565,
+        "name": "Carracosta",
+        "variant": 0,
+        "caught": 0
+      },
+      "566-archen-shiny.svg": {
+        "number": 566,
+        "name": "Archen",
+        "variant": 0,
+        "caught": 0
+      },
+      "567-archeops-shiny.svg": {
+        "number": 567,
+        "name": "Archeops",
+        "variant": 0,
+        "caught": 0
+      },
+      "568-trubbish-shiny.svg": {
+        "number": 568,
+        "name": "Trubbish",
+        "variant": 0,
+        "caught": 0
+      },
+      "569-garbodor-shiny.svg": {
+        "number": 569,
+        "name": "Garbodor",
+        "variant": 0,
+        "caught": 0
+      },
+      "570-zorua-shiny.svg": {
+        "number": 570,
+        "name": "Zorua",
+        "variant": 0,
+        "caught": 0
+      },
+      "571-zoroark-shiny.svg": {
+        "number": 571,
+        "name": "Zoroark",
+        "variant": 0,
+        "caught": 0
+      },
+      "572-minccino-shiny.svg": {
+        "number": 572,
+        "name": "Minccino",
+        "variant": 0,
+        "caught": 0
+      },
+      "573-cinccino-shiny.svg": {
+        "number": 573,
+        "name": "Cinccino",
+        "variant": 0,
+        "caught": 0
+      },
+      "574-gothita-shiny.svg": {
+        "number": 574,
+        "name": "Gothita",
+        "variant": 0,
+        "caught": 0
+      },
+      "575-gothorita-shiny.svg": {
+        "number": 575,
+        "name": "Gothorita",
+        "variant": 0,
+        "caught": 0
+      },
+      "576-gothitelle-shiny.svg": {
+        "number": 576,
+        "name": "Gothitelle",
+        "variant": 0,
+        "caught": 0
+      },
+      "577-solosis-shiny.svg": {
+        "number": 577,
+        "name": "Solosis",
+        "variant": 0,
+        "caught": 0
+      },
+      "578-duosion-shiny.svg": {
+        "number": 578,
+        "name": "Duosion",
+        "variant": 0,
+        "caught": 0
+      },
+      "579-reuniclus-shiny.svg": {
+        "number": 579,
+        "name": "Reuniclus",
+        "variant": 0,
+        "caught": 0
+      },
+      "580-ducklett-shiny.svg": {
+        "number": 580,
+        "name": "Ducklett",
+        "variant": 0,
+        "caught": 0
+      },
+      "581-swanna-shiny.svg": {
+        "number": 581,
+        "name": "Swanna",
+        "variant": 0,
+        "caught": 0
+      },
+      "582-vanillite-shiny.svg": {
+        "number": 582,
+        "name": "Vanillite",
+        "variant": 0,
+        "caught": 0
+      },
+      "583-vanillish-shiny.svg": {
+        "number": 583,
+        "name": "Vanillish",
+        "variant": 0,
+        "caught": 0
+      },
+      "584-vanilluxe-shiny.svg": {
+        "number": 584,
+        "name": "Vanilluxe",
+        "variant": 0,
+        "caught": 0
+      },
+      "585-deerling-autumn-shiny.svg": {
+        "number": 585,
+        "name": "Deerling",
+        "variant": 0,
+        "caught": 0
+      },
+      "585-deerling-spring-shiny.svg": {
+        "number": 585,
+        "name": "Deerling",
+        "variant": 0,
+        "caught": 0
+      },
+      "585-deerling-summer-shiny.svg": {
+        "number": 585,
+        "name": "Deerling",
+        "variant": 0,
+        "caught": 0
+      },
+      "585-deerling-winter-shiny.svg": {
+        "number": 585,
+        "name": "Deerling",
+        "variant": 0,
+        "caught": 0
+      },
+      "586-sawsbuck-autumn-shiny.svg": {
+        "number": 586,
+        "name": "Sawsbuck",
+        "variant": 0,
+        "caught": 0
+      },
+      "586-sawsbuck-spring-shiny.svg": {
+        "number": 586,
+        "name": "Sawsbuck",
+        "variant": 0,
+        "caught": 0
+      },
+      "586-sawsbuck-summer-shiny.svg": {
+        "number": 586,
+        "name": "Sawsbuck",
+        "variant": 0,
+        "caught": 0
+      },
+      "586-sawsbuck-winter-shiny.svg": {
+        "number": 586,
+        "name": "Sawsbuck",
+        "variant": 0,
+        "caught": 0
+      },
+      "587-emolga-shiny.svg": {
+        "number": 587,
+        "name": "Emolga",
+        "variant": 0,
+        "caught": 0
+      },
+      "588-karrablast-shiny.svg": {
+        "number": 588,
+        "name": "Karrablast",
+        "variant": 0,
+        "caught": 0
+      },
+      "589-escavalier-shiny.svg": {
+        "number": 589,
+        "name": "Escavalier",
+        "variant": 0,
+        "caught": 0
+      },
+      "594-alomomola-shiny.svg": {
+        "number": 594,
+        "name": "Alomomola",
+        "variant": 0,
+        "caught": 0
+      },
+      "595-joltik-shiny.svg": {
+        "number": 595,
+        "name": "Joltik",
+        "variant": 0,
+        "caught": 0
+      },
+      "596-galvantula-shiny.svg": {
+        "number": 596,
+        "name": "Galvantula",
+        "variant": 0,
+        "caught": 0
+      },
+      "597-ferroseed-shiny.svg": {
+        "number": 597,
+        "name": "Ferroseed",
+        "variant": 0,
+        "caught": 0
+      },
+      "598-ferrothorn-shiny.svg": {
+        "number": 598,
+        "name": "Ferrothorn",
+        "variant": 0,
+        "caught": 0
+      },
+      "602-tynamo-shiny.svg": {
+        "number": 602,
+        "name": "Tynamo",
+        "variant": 0,
+        "caught": 0
+      },
+      "603-eelektrik-shiny.svg": {
+        "number": 603,
+        "name": "Eelektrik",
+        "variant": 0,
+        "caught": 0
+      },
+      "604-eelektross-shiny.svg": {
+        "number": 604,
+        "name": "Eelektross",
+        "variant": 0,
+        "caught": 0
+      },
+      "605-elgyem-shiny.svg": {
+        "number": 605,
+        "name": "Elgyem",
+        "variant": 0,
+        "caught": 0
+      },
+      "606-beheeyem-shiny.svg": {
+        "number": 606,
+        "name": "Beheeyem",
+        "variant": 0,
+        "caught": 0
+      },
+      "610-axew-shiny.svg": {
+        "number": 610,
+        "name": "Axew",
+        "variant": 0,
+        "caught": 0
+      },
+      "611-fraxure-shiny.svg": {
+        "number": 611,
+        "name": "Fraxure",
+        "variant": 0,
+        "caught": 0
+      },
+      "612-haxorus-shiny.svg": {
+        "number": 612,
+        "name": "Haxorus",
+        "variant": 0,
+        "caught": 0
+      },
+      "613-cubchoo-shiny.svg": {
+        "number": 613,
+        "name": "Cubchoo",
+        "variant": 0,
+        "caught": 0
+      },
+      "614-beartic-shiny.svg": {
+        "number": 614,
+        "name": "Beartic",
+        "variant": 0,
+        "caught": 0
+      },
+      "615-cryogonal-shiny.svg": {
+        "number": 615,
+        "name": "Cryogonal",
+        "variant": 0,
+        "caught": 0
+      },
+      "616-shelmet-shiny.svg": {
+        "number": 616,
+        "name": "Shelmet",
+        "variant": 0,
+        "caught": 0
+      },
+      "617-accelgor-shiny.svg": {
+        "number": 617,
+        "name": "Accelgor",
+        "variant": 0,
+        "caught": 0
+      },
+      "618-stunfisk-shiny.svg": {
+        "number": 618,
+        "name": "Stunfisk",
+        "variant": 0,
+        "caught": 0
+      },
+      "619-mienfoo-shiny.svg": {
+        "number": 619,
+        "name": "Mienfoo",
+        "variant": 0,
+        "caught": 0
+      },
+      "620-mienshao-shiny.svg": {
+        "number": 620,
+        "name": "Mienshao",
+        "variant": 0,
+        "caught": 0
+      },
+      "621-druddigon-shiny.svg": {
+        "number": 621,
+        "name": "Druddigon",
+        "variant": 0,
+        "caught": 0
+      },
+      "622-golett-shiny.svg": {
+        "number": 622,
+        "name": "Golett",
+        "variant": 0,
+        "caught": 0
+      },
+      "623-golurk-shiny.svg": {
+        "number": 623,
+        "name": "Golurk",
+        "variant": 0,
+        "caught": 0
+      },
+      "624-pawniard-shiny.svg": {
+        "number": 624,
+        "name": "Pawniard",
+        "variant": 0,
+        "caught": 0
+      },
+      "625-bisharp-shiny.svg": {
+        "number": 625,
+        "name": "Bisharp",
+        "variant": 0,
+        "caught": 0
+      },
+      "626-bouffalant-shiny.svg": {
+        "number": 626,
+        "name": "Bouffalant",
+        "variant": 0,
+        "caught": 0
+      },
+      "627-rufflet-shiny.svg": {
+        "number": 627,
+        "name": "Rufflet",
+        "variant": 0,
+        "caught": 0
+      },
+      "628-braviary-shiny.svg": {
+        "number": 628,
+        "name": "Braviary",
+        "variant": 0,
+        "caught": 0
+      },
+      "629-vullaby-shiny.svg": {
+        "number": 629,
+        "name": "Vullaby",
+        "variant": 0,
+        "caught": 0
+      },
+      "630-mandibuzz-shiny.svg": {
+        "number": 630,
+        "name": "Mandibuzz",
+        "variant": 0,
+        "caught": 0
+      },
+      "631-heatmor-shiny.svg": {
+        "number": 631,
+        "name": "Heatmor",
+        "variant": 0,
+        "caught": 0
+      },
+      "632-durant-shiny.svg": {
+        "number": 632,
+        "name": "Durant",
+        "variant": 0,
+        "caught": 0
+      },
+      "633-deino-shiny.svg": {
+        "number": 633,
+        "name": "Deino",
+        "variant": 0,
+        "caught": 0
+      },
+      "634-zweilous-shiny.svg": {
+        "number": 634,
+        "name": "Zweilous",
+        "variant": 0,
+        "caught": 0
+      },
+      "635-hydreigon-shiny.svg": {
+        "number": 635,
+        "name": "Hydreigon",
+        "variant": 0,
+        "caught": 0
+      },
+      "-636-larvesta-shiny.svg": {
+        "number": 636,
+        "name": "Larvesta",
+        "variant": 0,
+        "caught": 0
+      },
+      "637-volcarona-shiny.svg": {
+        "number": 637,
+        "name": "Volcarona",
+        "variant": 0,
+        "caught": 0
+      },
+      "638-cobalion-shiny.svg": {
+        "number": 638,
+        "name": "Cobalion",
+        "variant": 0,
+        "caught": 0
+      },
+      "639-terrakion-shiny.svg": {
+        "number": 639,
+        "name": "Terrakion",
+        "variant": 0,
+        "caught": 0
+      },
+      "640-virizion-shiny.svg": {
+        "number": 640,
+        "name": "Virizion",
+        "variant": 0,
+        "caught": 0
+      },
+      "641-tornadus-shiny.svg": {
+        "number": 641,
+        "name": "Tornadus",
+        "variant": 0,
+        "caught": 0
+      },
+      "641-tornadus-therian-shiny.svg": {
+        "number": 641,
+        "name": "Tornadus",
+        "variant": 0,
+        "caught": 0
+      },
+      "642-thundurus-shiny.svg": {
+        "number": 642,
+        "name": "Thundurus",
+        "variant": 0,
+        "caught": 0
+      },
+      "642-thundurus-therian-shiny.svg": {
+        "number": 642,
+        "name": "Thundurus",
+        "variant": 0,
+        "caught": 0
+      },
+      "643-reshiram-shiny.svg": {
+        "number": 643,
+        "name": "Reshiram",
+        "variant": 0,
+        "caught": 0
+      },
+      "644-zekrom-shiny.svg": {
+        "number": 644,
+        "name": "Zekrom",
+        "variant": 0,
+        "caught": 0
+      },
+      "645-landorus-shiny.svg": {
+        "number": 645,
+        "name": "Landorus",
+        "variant": 0,
+        "caught": 0
+      },
+      "645-landorus-therian-shiny.svg": {
+        "number": 645,
+        "name": "Landorus",
+        "variant": 0,
+        "caught": 0
+      },
+      "646-kyurem-shiny.svg": {
+        "number": 646,
+        "name": "Kyurem",
+        "variant": 0,
+        "caught": 0
+      },
+      "647-keldeo-resolute-shiny.svg": {
+        "number": 647,
+        "name": "Keldeo",
+        "variant": 0,
+        "caught": 0
+      },
+      "647-keldeo-shiny.svg": {
+        "number": 647,
+        "name": "Keldeo",
+        "variant": 0,
+        "caught": 0
+      },
+      "648-meloetta-aria-shiny.svg": {
+        "number": 648,
+        "name": "Meloetta",
+        "variant": 0,
+        "caught": 0
+      },
+      "648-meloetta-pirouette-shiny.svg": {
+        "number": 648,
+        "name": "Meloetta",
+        "variant": 0,
+        "caught": 0
+      },
+      "649-genesect-shiny.svg": {
+        "number": 649,
+        "name": "Genesect",
+        "variant": 0,
+        "caught": 0
+      }
     },
     "kalos": {
     },

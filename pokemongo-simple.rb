@@ -14,6 +14,10 @@ json.each do |type_name,type| # normal/shiny
   type.each do |region_name,region| # kanto/johto/hoenn/sinnoh/unova/kalos/alola/unknown
     region.each do |icon_file,pokemon| # icon filename
       # caught has either the old value from the existing csv, or 0 for new keys
+      if (icon_file.start_with?('-'))
+        # workaround for '-636-larvesta-shiny.svg' file in latest icon version
+        icon_file = icon_file.delete_prefix('-')
+      end
       rows.push([caught[icon_file],icon_file])
     end
   end
