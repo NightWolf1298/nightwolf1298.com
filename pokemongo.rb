@@ -1,4 +1,5 @@
 require 'json'
+require 'csv'
 
 source = 'node_modules/pokemon-icons/_icons/SVG'
 
@@ -29,6 +30,14 @@ json = {
     'unknown' => {}
   }
 }
+
+simpleData = nil
+if (File.exist?('_data/simple-pokedex.csv'))
+  simpleData = {}
+ CSV.foreach('_data/simple-pokedex.csv', headers: true) do |row|
+    simpleData[row[1]] = row[0]
+  end
+end
 
 totalCaught = 0
 totalPokedex = 0
@@ -91,6 +100,10 @@ Dir.foreach(source) do |entry|
     caught = 0
     if (oldJson != nil && oldJson[type][region][entry] && oldJson[type][region][entry]['caught'] == 1)
       caught = 1
+    end
+
+    if (simpleData != nil && simpleData[filename])
+      caught = simpleData[filename] == '1' ? 1 : 0
     end
     json[type][region][entry] = {
       'number' => number,
