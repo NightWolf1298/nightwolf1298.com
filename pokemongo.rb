@@ -45,6 +45,10 @@ totalPokedex = 0
 Dir.foreach(source) do |entry|
   if (entry[0] != '.')
     filename = entry
+    if (filename.start_with?('-'))
+      # workaround for '-636-larvesta-shiny.svg' file in latest icon version
+      filename = filename.delete_prefix('-')
+    end
     name = filename + ''
     type = 'normal'
     if (name.include? '-shiny')
