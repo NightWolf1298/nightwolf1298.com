@@ -37,9 +37,21 @@ permalink: /pokemongo
 <h3 style="margin: 12px auto; border-bottom: 1px solid #808080;">{{ region[0] | capitalize }}</h3>
 <div class="grid grid-pokemon">
 {% for pokemon in region[1] %}
-<div class="{% if pokemon[1].caught == 0 %}need{% else %}have{% endif %}" style="{% if pokemon[1].caught == 0 %}filter: grayscale(100%) opacity(20%);{% endif %}">
-  <img src="{{ site.baseurl }}/node_modules/pokemon-icons/_icons/SVG/{{ pokemon[0] }}" alt="" />
-  <span style="font-size: 60%; line-height: 1;">{{ pokemon[1].name }}<br />#{{ pokemon[1].number }}</span>
+<div class="{% if pokemon[1].caught == 0 %}need{% else %}have{% endif %} pokedex-entry">
+  <span style="{% if pokemon[1].caught == 0 %}filter: grayscale(100%) opacity(40%);{% endif %}">
+    <img src="{{ site.baseurl }}/node_modules/pokemon-icons/_icons/SVG/{{ pokemon[0] }}" alt="" />
+    <span class="pokedex-text">
+      {{ pokemon[1].name }}<br />
+      #{{ pokemon[1].number }}<br />
+      {% if pokemon[1].caught_m >= 0 %}<span style="display: inline; {% if pokemon[1].caught_m == 0 %}filter: grayscale(100%) opacity(40%);{% endif %}">♂</span>{% endif %}
+      {% if pokemon[1].caught_f >= 0 %}<span style="display: inline; {% if pokemon[1].caught_f == 0 %}filter: grayscale(100%) opacity(40%);{% endif %}">♀</span>{% endif %}
+    </span>
+  </span>
+  {% if pokemon[1].variant != 'Normal' %}
+  <div class="pokedex-tooltip pokedex-text">
+    {{ pokemon[1].variant }}
+  </div>
+  {% endif %}
 </div>
 {% endfor %}
 </div>
