@@ -160,6 +160,41 @@ a.disabled {
 .colors button {
   margin-bottom: 10px; }
 
+.pokedex-entry {
+  position: relative;
+  display: inline-block; }
+
+.pokedex-entry .pokedex-text {
+  font-size: 60%;
+  line-height: 1; }
+
+.pokedex-entry .pokedex-tooltip {
+  visibility: hidden;
+  width: 140px;
+  background-color: dimgray;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 95%;
+  left: 50%;
+  margin-left: -70px; }
+
+.pokedex-entry .pokedex-tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent dimgray transparent; }
+
+.pokedex-entry:hover .pokedex-tooltip {
+  visibility: visible; }
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
