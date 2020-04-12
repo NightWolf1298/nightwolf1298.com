@@ -1,9 +1,12 @@
 require 'json'
 require 'csv'
 
+csvfile = '_data/simple-pokedex.csv'
+
 caught = Hash.new
-if (File.exist?('_data/simple-pokedex.csv'))
-  CSV.foreach('_data/simple-pokedex.csv', headers: true) do |row|
+if (File.exist?(csvfile))
+  headers = CSV.foreach(csvfile).first
+  CSV.foreach(csvfile, headers: true) do |row|
     c = row['Caught']
     m = row['CaughtM']
     f = row['CaughtF']
@@ -27,7 +30,7 @@ end
 # sort by number - normal (no form), shiny, other forms, alola, alola-shiny
 rows = rows.sort_by { |k| k[3].delete_suffix('.svg').gsub('-alola', '~alola') }
 
-csv = CSV.open('_data/simple-pokedex.csv', 'wb', headers: ['Caught','CaughtM','CaughtF','IconFile'], write_headers: true) do |csv|
+csv = CSV.open(csvfile, 'wb', headers: ['Caught','CaughtM','CaughtF','IconFile'], write_headers: true) do |csv|
   rows.each do |row|
     csv << row
   end
