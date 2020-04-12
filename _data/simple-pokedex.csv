@@ -1328,7 +1328,7 @@ Caught,CaughtM,CaughtF,IconFile
 0,0,0,589-escavalier.svg
 0,0,0,589-escavalier-shiny.svg
 1,1,1,590-foongus.svg
-0,0,0,591-amoonguss.svg
+1,1,0,591-amoonguss.svg
 0,0,0,592-frillish-f.svg
 0,0,0,592-frillish-m.svg
 0,0,0,593-jellicent-f.svg
@@ -1375,7 +1375,7 @@ Caught,CaughtM,CaughtF,IconFile
 0,0,0,616-shelmet-shiny.svg
 0,0,0,617-accelgor.svg
 0,0,0,617-accelgor-shiny.svg
-0,0,0,618-stunfisk.svg
+1,1,0,618-stunfisk.svg
 0,0,0,618-stunfisk-shiny.svg
 0,0,0,619-mienfoo.svg
 0,0,0,619-mienfoo-shiny.svg

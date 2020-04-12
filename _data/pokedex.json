@@ -5565,8 +5565,8 @@
         "number": 591,
         "name": "Amoonguss",
         "variant": "Normal",
-        "caught": 0,
-        "caught_m": 0,
+        "caught": 1,
+        "caught_m": 1,
         "caught_f": 0
       },
       "592-frillish-f.svg": {
@@ -5797,8 +5797,8 @@
         "number": 618,
         "name": "Stunfisk",
         "variant": "Normal",
-        "caught": 0,
-        "caught_m": 0,
+        "caught": 1,
+        "caught_m": 1,
         "caught_f": 0
       },
       "619-mienfoo.svg": {
