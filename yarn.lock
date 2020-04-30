@@ -2051,7 +2051,7 @@ npm-user-validate@~1.0.0:
   resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-1.0.0.tgz#8ceca0f5cea04d4e93519ef72d0557a75122e951"
   integrity sha1-jOyg9c6gTU6TUZ73LQVXp1Ei6VE=
 
-npm@^6.11.2:
+npm@^6.14.4:
   version "6.14.4"
   resolved "https://registry.yarnpkg.com/npm/-/npm-6.14.4.tgz#50a1c6274fb451ca18f6ff472d2a73f006adbd66"
   integrity sha512-B8UDDbWvdkW6RgXFn8/h2cHJP/u/FPa4HWeGzW23aNEBARN3QPrRaHqPIZW2NSN3fW649gtgUDNZpaRs0zTMPw==
@@ -2445,9 +2445,9 @@ pify@^3.0.0:
 
 "pokemon-icons@https://github.com/TheArtificial/pokemon-icons":
   version "1.0.0"
-  resolved "https://github.com/TheArtificial/pokemon-icons#06be17f5d61d1fb23ea0e02a50d991c0663ee0dc"
+  resolved "https://github.com/TheArtificial/pokemon-icons#99e37f01e69bcf47d373274acb5bab6662086bbc"
   dependencies:
-    npm "^6.11.2"
+    npm "^6.14.4"
 
 popper.js@^1.16.1:
   version "1.16.1"
