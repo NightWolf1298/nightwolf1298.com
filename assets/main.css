@@ -52,12 +52,6 @@ html, body { height: 100%; }
 
 a.disabled { text-decoration: line-through; }
 
-#timeline { width: 100%; margin-bottom: 70px; }
-
-#timeline rect, #timeline path { stroke-width: 0; }
-
-#timeline text { fill: #fff; }
-
 .pokemon-shiny { display: none; }
 
 .grid { text-align: center; font-size: 0; display: grid; grid-auto-rows: auto; grid-auto-flow: dense; vertical-align: middle; padding: 0; grid-gap: 12px; }
