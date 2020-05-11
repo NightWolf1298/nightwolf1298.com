@@ -123,20 +123,6 @@ a.disabled {
   text-decoration: line-through;
 }
 
-#timeline {
-  width: 100%;
-  margin-bottom: 70px;
-}
-
-#timeline rect,
-#timeline path {
-  stroke-width: 0;
-}
-
-#timeline text {
-  fill: #fff;
-}
-
 .pokemon-shiny {
   display: none;
 }
