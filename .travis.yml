@@ -3,11 +3,14 @@ branches:
   only:
     - master
 rvm:
-  - 2.6.5
+  - 2.7.1
+cache:
+  bundler: true
+  directories:
+    - node_modules
 before_install:
+  - yarn install
   - gem install bundler
 before_script:
   - chmod +x ./deploy.sh
 script: ./deploy.sh
-exclude: [vendor]
-sudo: false
