@@ -14,5 +14,7 @@ sass:
   load_paths:
     - _sass
     - node_modules
-include: [.nojekyll, _icons]
-exclude: [vendor]
+include: 
+  - .nojekyll
+  - _icons
+  - node_modules
