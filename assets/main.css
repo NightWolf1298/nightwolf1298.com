@@ -8,6 +8,14 @@
 
 html, body { height: 100%; }
 
+.navbar { pointer-events: none; z-index: 999; }
+
+.navbar > * { pointer-events: auto; }
+
+.navbar .navbar-brand { width: 50px; height: 50px; padding-top: 0; padding-bottom: 0; }
+
+.navbar .navbar-toggler { outline: none; }
+
 .container { max-width: 1140px !important; }
 
 .btn-primary, .badge-primary, .progress-bar { color: #343a40 !important; }
