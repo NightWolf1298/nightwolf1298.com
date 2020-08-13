@@ -515,10 +515,7 @@ class Style extends Evented {
             return this.fire(new ErrorEvent(new Error('An image with this name already exists.')));
         }
         this.imageManager.addImage(id, image);
-        this._availableImages = this.imageManager.listImages();
-        this._changedImages[id] = true;
-        this._changed = true;
-        this.fire(new Event('data', {dataType: 'style'}));
+        this._afterImageUpdated(id);
     }
 
     updateImage(id: string, image: StyleImage) {
@@ -534,9 +531,14 @@ class Style extends Evented {
             return this.fire(new ErrorEvent(new Error('No image with this name exists.')));
         }
         this.imageManager.removeImage(id);
+        this._afterImageUpdated(id);
+    }
+
+    _afterImageUpdated(id: string) {
         this._availableImages = this.imageManager.listImages();
         this._changedImages[id] = true;
         this._changed = true;
+        this.dispatcher.broadcast('setImages', this._availableImages);
         this.fire(new Event('data', {dataType: 'style'}));
     }
 
@@ -554,7 +556,7 @@ class Style extends Evented {
         }
 
         if (!source.type) {
-            throw new Error(`The type property must be defined, but the only the following properties were given: ${Object.keys(source).join(', ')}.`);
+            throw new Error(`The type property must be defined, but only the following properties were given: ${Object.keys(source).join(', ')}.`);
         }
 
         const builtIns = ['vector', 'raster', 'geojson', 'video', 'image'];
@@ -950,7 +952,7 @@ class Style extends Evented {
         }
 
         if (key && (typeof target.id !== 'string' && typeof target.id !== 'number')) {
-            this.fire(new ErrorEvent(new Error(`A feature id is requred to remove its specific state property.`)));
+            this.fire(new ErrorEvent(new Error(`A feature id is required to remove its specific state property.`)));
             return;
         }
 
