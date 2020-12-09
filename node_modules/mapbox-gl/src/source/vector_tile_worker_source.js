@@ -11,6 +11,7 @@ import {RequestPerformance} from '../util/performance';
 import type {
     WorkerSource,
     WorkerTileParameters,
+    RequestedTileParameters,
     WorkerTileCallback,
     TileParameters
 } from '../source/worker_source';
@@ -18,10 +19,11 @@ import type {
 import type Actor from '../util/actor';
 import type StyleLayerIndex from '../style/style_layer_index';
 import type {Callback} from '../types/callback';
+import type Scheduler from '../util/scheduler';
 
 export type LoadVectorTileResult = {
-    vectorTile: VectorTile;
     rawData: ArrayBuffer;
+    vectorTile?: VectorTile;
     expires?: any;
     cacheControl?: any;
     resourceTiming?: Array<PerformanceResourceTiming>;
@@ -36,28 +38,92 @@ export type LoadVectorTileResult = {
 export type LoadVectorDataCallback = Callback<?LoadVectorTileResult>;
 
 export type AbortVectorData = () => void;
-export type LoadVectorData = (params: WorkerTileParameters, callback: LoadVectorDataCallback) => ?AbortVectorData;
+export type LoadVectorData = (params: RequestedTileParameters, callback: LoadVectorDataCallback) => ?AbortVectorData;
+
+export class DedupedRequest {
+    entries: { [string]: Object };
+    scheduler: ?Scheduler;
+    constructor(scheduler?: Scheduler) {
+        this.entries = {};
+        this.scheduler = scheduler;
+    }
+
+    request(key: string, metadata: Object, request: any, callback: LoadVectorDataCallback) {
+        const entry = this.entries[key] = this.entries[key] || {callbacks: []};
+
+        if (entry.result) {
+            const [err, result] = entry.result;
+            if (this.scheduler) {
+                this.scheduler.add(() => {
+                    callback(err, result);
+                }, metadata);
+            } else {
+                callback(err, result);
+            }
+            return () => {};
+        }
+
+        entry.callbacks.push(callback);
+
+        if (!entry.cancel) {
+            entry.cancel = request((err, result) => {
+                entry.result = [err, result];
+                for (const cb of entry.callbacks) {
+                    if (this.scheduler) {
+                        this.scheduler.add(() => {
+                            cb(err, result);
+                        }, metadata);
+                    } else {
+                        cb(err, result);
+                    }
+                }
+                setTimeout(() => delete this.entries[key], 1000 * 3);
+            });
+        }
+
+        return () => {
+            if (entry.result) return;
+            entry.callbacks = entry.callbacks.filter(cb => cb !== callback);
+            if (!entry.callbacks.length) {
+                entry.cancel();
+                delete this.entries[key];
+            }
+        };
+    }
+}
 
 /**
  * @private
  */
-function loadVectorTile(params: WorkerTileParameters, callback: LoadVectorDataCallback) {
-    const request = getArrayBuffer(params.request, (err: ?Error, data: ?ArrayBuffer, cacheControl: ?string, expires: ?string) => {
-        if (err) {
-            callback(err);
-        } else if (data) {
-            callback(null, {
-                vectorTile: new vt.VectorTile(new Protobuf(data)),
-                rawData: data,
-                cacheControl,
-                expires
-            });
-        }
-    });
-    return () => {
-        request.cancel();
-        callback();
+export function loadVectorTile(params: RequestedTileParameters, callback: LoadVectorDataCallback, skipParse?: boolean) {
+    const key = JSON.stringify(params.request);
+
+    const makeRequest = (callback) => {
+        const request = getArrayBuffer(params.request, (err: ?Error, data: ?ArrayBuffer, cacheControl: ?string, expires: ?string) => {
+            if (err) {
+                callback(err);
+            } else if (data) {
+                callback(null, {
+                    vectorTile: skipParse ? undefined : new vt.VectorTile(new Protobuf(data)),
+                    rawData: data,
+                    cacheControl,
+                    expires
+                });
+            }
+        });
+        return () => {
+            request.cancel();
+            callback();
+        };
     };
+
+    if (params.data) {
+        // if we already got the result earlier (on the main thread), return it directly
+        this.deduped.entries[key] = {result: [null, params.data]};
+    }
+
+    const callbackMetadata = {type: 'parseTile', isSymbolTile: params.isSymbolTile, zoom: params.tileZoom};
+    return this.deduped.request(key, callbackMetadata, makeRequest, callback);
 }
 
 /**
@@ -74,8 +140,9 @@ class VectorTileWorkerSource implements WorkerSource {
     layerIndex: StyleLayerIndex;
     availableImages: Array<string>;
     loadVectorData: LoadVectorData;
-    loading: {[_: string]: WorkerTile };
-    loaded: {[_: string]: WorkerTile };
+    loading: {[_: number]: WorkerTile };
+    loaded: {[_: number]: WorkerTile };
+    deduped: DedupedRequest;
 
     /**
      * @param [loadVectorData] Optional method for custom loading of a VectorTile
@@ -91,6 +158,7 @@ class VectorTileWorkerSource implements WorkerSource {
         this.loadVectorData = loadVectorData || loadVectorTile;
         this.loading = {};
         this.loaded = {};
+        this.deduped = new DedupedRequest(actor.scheduler);
     }
 
     /**
@@ -102,19 +170,19 @@ class VectorTileWorkerSource implements WorkerSource {
     loadTile(params: WorkerTileParameters, callback: WorkerTileCallback) {
         const uid = params.uid;
 
-        if (!this.loading)
-            this.loading = {};
-
         const perf = (params && params.request && params.request.collectResourceTiming) ?
             new RequestPerformance(params.request) : false;
 
         const workerTile = this.loading[uid] = new WorkerTile(params);
         workerTile.abort = this.loadVectorData(params, (err, response) => {
+
+            const aborted = !this.loading[uid];
+
             delete this.loading[uid];
 
-            if (err || !response) {
+            if (aborted || err || !response) {
                 workerTile.status = 'done';
-                this.loaded[uid] = workerTile;
+                if (!aborted) this.loaded[uid] = workerTile;
                 return callback(err);
             }
 
@@ -132,8 +200,11 @@ class VectorTileWorkerSource implements WorkerSource {
                     resourceTiming.resourceTiming = JSON.parse(JSON.stringify(resourceTimingData));
             }
 
-            workerTile.vectorTile = response.vectorTile;
-            workerTile.parse(response.vectorTile, this.layerIndex, this.availableImages, this.actor, (err, result) => {
+            // response.vectorTile will be present in the GeoJSON worker case (which inherits from this class)
+            // because we stub the vector tile interface around JSON data instead of parsing it directly
+            workerTile.vectorTile = response.vectorTile || new vt.VectorTile(new Protobuf(rawTileData));
+
+            workerTile.parse(workerTile.vectorTile, this.layerIndex, this.availableImages, this.actor, (err, result) => {
                 if (err || !result) return callback(err);
 
                 // Transferring a copy of rawTileData because the worker needs to retain its copy.
@@ -156,6 +227,7 @@ class VectorTileWorkerSource implements WorkerSource {
         if (loaded && loaded[uid]) {
             const workerTile = loaded[uid];
             workerTile.showCollisionBoxes = params.showCollisionBoxes;
+            workerTile.enableTerrain = !!params.enableTerrain;
 
             const done = (err, data) => {
                 const reloadCallback = workerTile.reloadCallback;
@@ -187,11 +259,11 @@ class VectorTileWorkerSource implements WorkerSource {
      * @private
      */
     abortTile(params: TileParameters, callback: WorkerTileCallback) {
-        const loading = this.loading,
-            uid = params.uid;
-        if (loading && loading[uid] && loading[uid].abort) {
-            loading[uid].abort();
-            delete loading[uid];
+        const uid = params.uid;
+        const tile = this.loading[uid];
+        if (tile) {
+            if (tile.abort) tile.abort();
+            delete this.loading[uid];
         }
         callback();
     }
