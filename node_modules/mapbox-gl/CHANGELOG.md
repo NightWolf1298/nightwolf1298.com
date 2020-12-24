@@ -1,9 +1,25 @@
+## 2.0.1
+
+### ✨ Features and improvements
+
+- Added support for using third-party worker-loader plugins in build systems such as Webpack and Rollup (`mapboxgl.workerClass`). ([#10219](https://github.com/mapbox/mapbox-gl-js/pull/10219))
+- Added `mapboxgl.setNow` and `mapboxgl.restoreNow` methods which allow setting custom animation timing for 60 fps, jank-free video recording. ([#10172](https://github.com/mapbox/mapbox-gl-js/pull/10172))
+- Removed outdated CSS hacks that no longer apply. ([#10202](https://github.com/mapbox/mapbox-gl-js/pull/10202))
+
+### 🐞 Bug fixes
+
+- Fixed a bug where `ImageSource` and dynamically loaded icons didn't work in some cases in Firefox and Safari. ([#10230](https://github.com/mapbox/mapbox-gl-js/pull/10230))
+- Fixed a bug where `map.unproject` and `map.panBy` acted unpredictably in certain cases. ([#10224](https://github.com/mapbox/mapbox-gl-js/pull/10224))
+- Fixed a bug where the sky layer didn't take map padding into account. ([#10201](https://github.com/mapbox/mapbox-gl-js/pull/10201))
+- Fixed a bug where `map.setStyle` couldn't be used to enable terrain. ([#10177](https://github.com/mapbox/mapbox-gl-js/pull/10177))
+- Fixed a bug where mouse events didn't properly fire during zoom scrolling. ([#10171](https://github.com/mapbox/mapbox-gl-js/pull/10171))
+
 ## 2.0.0
 
 ### ⚠️ Breaking changes
 
 - **mapbox-gl-js is no longer under the 3-Clause BSD license. By upgrading to this release, you are agreeing to [Mapbox terms of service](https://www.mapbox.com/legal/tos/).** Refer to LICENSE.txt for the new licensing terms and details. For questions, contact our team at [https://support.mapbox.com](https://support.mapbox.com).
-- Beginning with v2.0.0, a billable map load occurs whenever a Map object is initialized. Before updating an existing implementation from v1.x.x to v2.x.x, please review the pricing documentation to estimate expected costs.
+- Beginning with v2.0.0, a billable map load occurs whenever a Map object is initialized. Before updating an existing implementation from v1.x.x to v2.x.x, please review the [pricing documentation](https://docs.mapbox.com/accounts/guides/pricing/#mapbox-gl-js-v100-and-higher) to estimate expected costs.
 - Deprecate Internet Explorer 11, no longer supported from this release. ([#8283](https://github.com/mapbox/mapbox-gl-js/issues/8283), [#6391](https://github.com/mapbox/mapbox-gl-js/issues/6391))
 - Support for unlocked pitch up to 85°. The  default `maxPitch` is increased from 60° to 85° which can result in viewing above the horizon line. By default, this area will be drawn transparent but a new sky layer can be added to the map in order to fill this space. The legacy behavior can be achieved by simply adding `maxPitch: 60` to the map options when instantiating your map.
 
