@@ -8,7 +8,7 @@
     "mapbox-gl": "^2.2.0",
     "pokemon-icons": "https://github.com/TheArtificial/pokemon-icons",
     "popper.js": "^1.16.1",
-    "simple-icons": "^4.16.0"
+    "simple-icons": "^4.17.0"
   },
   "repository": {
     "type": "git",
