@@ -4,7 +4,7 @@ gem "jekyll", "~> 4.2"
 # gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.16"
+  gem "jekyll-feed", "~> 0.17"
 end
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
