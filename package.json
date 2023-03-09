@@ -4,7 +4,7 @@
     "bootstrap": "^4.6.2",
     "chart.js": "^4.2.1",
     "clipboard": "^2.0.11",
-    "jquery": "^3.6.3",
+    "jquery": "^3.6.4",
     "mapbox-gl": "^2.13.0",
     "pokemon-icons": "https://github.com/TheArtificial/pokemon-icons",
     "popper.js": "^1.16.1",
