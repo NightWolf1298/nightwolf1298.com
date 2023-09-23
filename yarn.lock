@@ -2797,10 +2797,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-simple-icons@^9.14.0:
-  version "9.14.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-9.14.0.tgz#493388acbfda6a63a5979e9be0bc2529771cd434"
-  integrity sha512-8nBO/v1y2p4uQX0lpqrBqBAhbx0GlLVYUb904vrsLxLylYkFQMrlPjTYSFI7d9TaY5kUpoDlqC+/9ojyKDZI9g==
+simple-icons@^9.15.0:
+  version "9.15.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-9.15.0.tgz#6546a9608a12470ae734180be1477dd7c8b4ab45"
+  integrity sha512-76lKUjLHV5xQmNd5uglZitthQjY+Y15e+sKsryEk4Xo9OXmC1E1trBNC5Q4R2FHkHu8lAUhW7Up0mCcG6e0Nqg==
 
 slide@^1.1.6, slide@~1.1.3, slide@~1.1.6:
   version "1.1.6"
